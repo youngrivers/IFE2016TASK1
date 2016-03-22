@@ -38,7 +38,7 @@
             这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
             这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
         <img src="images/keyboard.png" title="keyboard">
-        <ul>
+        <ul class="x">
             <li>列表项目一</li>
             <li>列表项目二</li>
             <li>列表项目三</li>
@@ -135,23 +135,23 @@
         <div class="ID">
             <form>
                 <div>
-                    <div>请输入邮箱地址：
-                        <input type="email" name="email" placeholder="这是一个文本输入框"/></div>
+                    <span class="left">请输入邮箱地址：</span>
+                        <input type="email" name="email" placeholder="这是一个文本输入框"/>
                     <p>邮箱地址请按要求格式输入</p>
-                    <label>请输入密码：</label>
-                    <input type="password" name="keyword" value="这是一个文本输入框"><br>
-                    <label> 请重复输入密码：</label>
-                    <input type="password" name="keyword" value="这是一个文本输入框"><br>
+                    <span class="left">请输入密码：</span>
+                        <input type="password" name="keyword" value="这是一个文本输入框"><br>
+                    <span class="left"> 请重复输入密码：</span>
+                        <input type="password" name="keyword" value="这是一个文本输入框">
                     <p>密码请为6-16位英文数字</p>
                 </div>
             </form>
             <form>
-                性别：
+                <span class="left">性别：</span>
                 <label>
                     <input type="radio" value="man" checked="checked">男
                     <input type="radio" value="woman">女
                     <br>
-                    城市：
+                    <span class="left">城市：</span>
                     <select name="city">
                         <option value="上海">上海</option>
                         <option value="广州">广州</option>
@@ -159,12 +159,12 @@
                         <option value="深圳">深圳</option>
                     </select>
                     <br>
-                    爱好：
+                    <span class="left">爱好：</span>
                     <input type="checkbox">运动
                     <input type="checkbox">艺术
                     <input type="checkbox">科学
                     <br>
-                    个人描述：
+                    <sapn class="left">个人描述：</sapn>
                     <textarea rows="6" cols="100">这是一个多行输入框，输入你的个人描述
                         </textarea><br>
                 </label>
