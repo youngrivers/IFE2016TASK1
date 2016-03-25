@@ -1,0 +1,385 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 1280px;
+    font-family:"Microsoft YaHei";
+}
+.top{
+    height: 60px;
+    position: relative;
+}
+.topLeft{
+    position: absolute;
+    top: 12px;
+    left: 58px;
+}
+.topLeft span{
+    font-size: 21px;
+}
+.topRight{
+    position: absolute;
+    top: 1px;
+    right: 60px;
+}
+.top li{
+    float: left;
+    margin-left: 30px;
+    color: #717179;
+    list-style-type: none;
+    cursor: pointer;
+}
+.top li:hover{
+    color: #e5666f;
+}
+.move{
+    position: absolute;
+    width: 60px;
+    border-top: 2px solid #E53C3C;
+    left: 30px;
+    top: 55px;
+    -webkit-transition: left 0.4s ease-in-out;
+}
+.top li:nth-child(1):hover~.move{
+    left: 30px;
+}
+.top li:nth-child(2):hover~.move{
+    left: 100px;
+}
+.top li:nth-child(3):hover~.move{
+    left: 200px;
+}
+.top li:nth-child(4):hover~.move{
+    left: 290px;
+}
+.top li:nth-child(5):hover~.move{
+    left: 390px;
+}
+.topRight img{
+    margin-left: 30px;
+}
+.topRight span{
+    color:#e5666f;
+}
+.header{
+    position: relative;
+}
+.headerText{
+    position: absolute;
+    top: 230px;
+    left: 118px;
+    color: white;
+}
+.headerText input{
+    width: 330px;
+    height: 65px;
+    border: 0;
+    background-color:#e8504f;
+    font-family:"Microsoft YaHei";
+    font-size: 35px;
+    color: white;
+}
+.headerText p{
+    font-size:58px;
+    line-height: 1%;
+}
+.headerText span{
+    font-size: 21px;
+}
+.middle{
+    height: 250px;
+    position: relative;
+    text-align: center;
+    margin:0 auto;
+}
+.middleBox{
+    width: 315px;
+    margin: 0;
+    padding: 40px 0;
+    float: left;
+    color: #767777;
+    font-size: 14px;
+}
+.middleBox p{
+    margin: 40px 75px;
+}
+.newWorld{
+    height: 1305px;
+    background-color: #ededed;
+    text-align: center;
+    color: #767777;
+    padding-top: 100px;
+    line-height: 30px;
+    position: relative;
+}
+.city{
+    margin:80px 150px;
+}
+.picture{
+    float: left;
+    padding: 10px 5px;
+    margin: 10px 10px;
+    text-align: center;
+    line-height: 12px;
+}
+.picture img{
+    padding: 10px 5px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.picture h4{
+    color: black;
+}
+.picture p{
+    font-size: 12px;
+}
+.about{
+    position: relative;
+    top: 0;
+}
+.about1{
+}
+.about1-2{
+    float: left;
+    width: 285px;
+    padding:126px 72px;
+    text-align: center;
+}
+.about1-2 p{
+    font-size: 12px;
+    line-height: 30px;
+    text-align: left;
+    color: #767777;
+}
+.about1-2 input{
+    width: 108px;
+    height: 35px;
+    color:#e5666f;
+    border-width: 1px;
+    border-color:#e5666f;
+}
+.about2{
+}
+.about2 p{
+    font-size: 20px;
+    line-height: 16px;
+}
+.about2-1{
+    padding: 177px 0;
+    width: 425px;
+    background-color: #e8504f;
+    color: white;
+    float: left;
+    text-align: center;
+}
+.about2-1 input{
+    width: 168px;
+    height: 40px;
+    border-color: white;
+    color: white;
+    font-size: 25px;
+    background-color: #e8504f;
+    border-width: 1px;
+}
+.about2-2{
+    padding: 177px 0;
+    width: 425px;
+    float: left;
+    text-align: center;
+}
+.about2-2 input{
+    width: 168px;
+    height: 40px;
+    border-color: #e8504f;
+    color: #e8504f;
+    font-size: 25px;
+    background-color:white;
+    border-width: 1px;
+}
+.message{
+    width: 1005px;
+    margin:0 auto;
+    position: relative;
+}
+.message p{
+    color: #717179;
+    font-size: 12px;
+}
+.message1{
+    text-align: center;
+    padding: 108px 290px;
+}
+.message1 h3{
+    line-height: 6px;
+}
+.message2{
+    height: 450px;
+}
+.message2-1{
+    width: 280px;
+    float: left;
+    padding-right: 60px;
+    margin-top: -25px;
+}
+.message2-2{
+
+}
+.message2-2 input{
+    width: 311px;
+    height: 41px;
+    margin: 6px 6px;
+    background-color: #ededef;
+    border: 1px;
+    color: #717179;
+}
+.message2-2 textarea{
+    border: 1px;
+    margin: 6px 6px;
+    background-color: #ededef;
+    color: #717179;
+}
+.footer{
+    width: 100%;
+    height: 416px;
+    text-align: center;
+    background-color: #33363f;
+    color: white;
+    position: relative;
+}
+.contactUs{
+    width: 510px;
+    margin: 0 385px;
+    padding: 70px 0;
+}
+.contactUs p{
+    font-size: 12px;
+}
+.contactUs img{
+    margin: 0 10px;
+}
+.footerRoot{
+    width: 100%;
+    height: 58px;
+    text-align:justify;
+    background-color: #30303a;
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+}
+.footerRoot span{
+    position: absolute;
+    left: 100px;
+    bottom: 16px;
+}
+.footerRoot a{
+    position: absolute;
+    right: 40px;
+    bottom: 16px;
+    color: white;
+}
+.section-5 {
+    position: relative;
+    width: 100%;
+    height: 340px;
+    text-align: center;
+    overflow: hidden;
+}
+.section-5 h1 {
+    font-size: 1.75em;
+    color: #fff;
+    margin-top: 50px;
+}
+.section-5 .line {
+    margin: 10px 0 19px;
+}
+.section-5 p {
+    color: #fff;
+}
+
+.line {
+    display: inline-block;
+    height: 3px;
+    width: 30px;
+    background-color: #fff;
+}
+
+.section-5-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.select-imitation {
+    display: inline-block;
+    width: 1030px;
+    margin-top: 50px;
+}
+
+.select {
+    float: left;
+    position: relative;
+    width: 187px;
+    height: 35px;
+    padding: 0 35px 0 12px;
+    text-align: left;
+    background-color: #fff;
+    margin-right: 29px;
+    color: #a8aaaa;
+    border-width: 0 1px;
+    border-color: #e2cec9;
+    border-style: solid;
+    overflow: hidden;
+}
+.select .arrow {
+    position: absolute;
+    top: 9px;
+    right: 8px;
+    cursor: pointer;
+}
+.select .valuebox {
+    height: 100%;
+    line-height: 35px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.select.active {
+    border: 1px solid #c27971;
+    overflow: visible;
+}
+
+.options {
+    position: absolute;
+    top: 100%;
+    left: -1px;
+    width: 100%;
+    height: 104px;
+    border: 1px solid #c27971;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+.options .option {
+    height: 26px;
+    width: 203px;
+    padding-left: 31px;
+    line-height: 26px;
+    background-color: #e3e2e4;
+    color: #323333;
+}
+.options .option:hover {
+    background: url(../img/tick.png) no-repeat 8px center;
+    background-color: #be4e48;
+    color: #fff;
+}
+
+#search {
+    float: left;
+    width: 210px;
+    height: 35px;
+    padding-left: 25px;
+    background-color: #be4e48;
+    letter-spacing: 25px;
+    color: #fff;
+    font-size: 1.166667em;
+}
