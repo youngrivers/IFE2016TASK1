@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+.main{
+    width: 980px;
+    height: 1386px;
+    margin:0 auto;
+    background-color: white;
+}
+.header{
+    width: 892px;
+    height: 61px;
+    margin:0 auto;
+    position: relative;
+}
+.headerLeft{
+    width: 110px;
+    height: 61px;
+    background-color: #d45d5c;
+    font: 12px "ºÚÌå";
+    color: #ffffff;
+    position: relative;
+}
+.headerLeft span{
+    margin-top: 50px;
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+}
+.headerRight{
+    font: 12px "ºÚÌå";
+    color: #d45d5c;
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+}
+.middle{
+    width: 892px;
+    margin:0 auto;
+    border-top:2px solid #938e8c;
+    border-bottom: 1px solid #938e8c;
+}
+.middleUp{
+    width: 892px;
+    height: 540px;
+    margin: 35px 0;
+    position: relative;
+}
+.middleUpLeft{
+    width: 641px;
+    height: 510px;
+    position: absolute;
+}
+.one{
+    width: 191px;
+    height: 301px;
+    background-color: #9bbea0;
+    position: absolute;
+    opacity: 0.5;
+}
+.two{
+    width: 191px;
+    height: 301px;
+    background-color: #e4b6b6;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+}
+.three{
+    width: 458px;
+    height: 61px;
+    background-color: #6e6f77;
+    position: absolute;
+    opacity: 0.7;
+    top: 196px;
+}
+.threeWrap{
+    border-left: 3px solid #72b16a;
+    height: 44px;
+    margin: 8px 35px;
+    font-family: "Microsoft Yahei";
+    padding-left: 8px;
+}
+.middleUpLeft2{
+    width: 641px;
+    height: 172px;
+    margin-top: 33px;
+    position: relative;
+    font-family: Î¢ÈíÑÅºÚ;
+}
+ins{
+    font-size: 16px;
+}
+.what{
+    width: 226px;
+    float: left;
+}
+.middleUpLeft2 p{
+    font-size: 12px;
+    color: #767777;
+    line-height: 16px;
+    opacity: 0.7;
+}
+.when{
+    width: 204px;
+    float: left;
+    margin: 0 30px;
+}
+.how{
+    width: 131px;
+    float: left;
+}
+.how span{
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 0.7;
+    font-family: cursive;
+}
+.how i{
+    font-size: 12px;
+    color: #cd4a48;
+    line-height: 16px;
+    opacity: 0.7;
+    font-family: cursive;
+}
+.middleUpRight{
+    width: 203px;
+    height: 300px;
+    border-top: 2px solid #cc8091;
+    position: absolute;
+    text-align: left;
+    right: 0;
+    font-family: "Microsoft Yahei";
+}
+.middleUpRight span{
+    color: #cc8091;
+}
+.middleDown{
+    width: 892px;
+    height: 607px;
+    position: relative;
+    margin: 30px 0;
+}
+.middleDownLeft{
+    width:415px;
+    position: relative;
+    float: left;
+}
+.middleDownLeftTop{
+    border-bottom: 2px solid #11456b;
+    font-family: Microsoft Yahei;
+}
+.middleDownLeft i{
+    font-size: 70px;
+    color: #f5e327;
+}
+.middleUpLeftTop span{
+    color: #11456b;
+}
+.middleDownLeftBottom{
+    margin: 20px auto;
+}
+.middleDownLeftTop span{
+    color: #11456b;
+}
+.middleDownLeftBottom p{
+    margin: 1px 0;
+}
+.middleDownLeftBottom p{
+    line-height: 16px;
+    font-size: 12px;
+    font-family: "SimSun";
+    color: #767777;
+}
+.middleDownRight{
+    position:relative;
+    float: right;
+}
+.middleDownRightBottom{
+    width:459px;
+    height: 317px;
+    background-color: #eeeed6;
+    margin: 30px 0;
+}
+.middleDownLeftBottomUp{
+    width: 410px;
+    margin:15px 20px;
+    position: absolute;
+}
+.text{
+    width: 260px;
+    height: 160px;
+    background-color: #d45d5c;
+    position: absolute;
+    bottom:30px;
+    color: #ffffff;
+}
+.textLeft{
+    position: absolute;
+    float: left;
+    padding: 10px 10px;
+}
+.textRight{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    padding: 0 8px;
+    border-left: 2px solid #ffffff;
+    font-family: 'ºÚÌå';
+}
+.textRight i{
+    font-size: 21px;
+    margin-bottom: 24px;
+}
+.textRight span{
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+.text1{
+    width: 180px;
+    height: 120px;
+    position: absolute;
+    right: 0;
+    padding-top: 30px;
+    bottom: 60px;
+    font-family:SimHei;
+    font-size: 14px;
+    line-height: 16px;
+}
+.footer{
+    position: relative;
+    width: 892px;
+    height: 61px;
+    margin:0 auto;
+}
+.footer a{
+    font: 12px "ºÚÌå";
+    color: #d45d5c;
+    text-decoration: none;
+    position: absolute;
+    top: 2px;
+    right: 0;
+}
+.text1 span{
+    font-size: 72px;
+    color: #d45d5c;
+}
+.bot1{
+    position: absolute;
+    left: -40px;
+    top: 60px;
+}
+.bot2{
+    position: absolute;
+    bottom:0;
+    right:-20px;
+}
+.box{
+    position: relative;
+}
+.boxRight{
+    position: absolute;
+    left: 80px;
+    top:30px;
+    line-height: 12px;
+}
