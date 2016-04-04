@@ -5,6 +5,9 @@ body{
     overflow-x: hidden;
     font: 12px/1.5 Microsoft YaHei,arial,sans-serif,'宋体';
 }
+.div{
+    display:inline;
+}
 .header{
     width: 1280px;
     height: 55px;
@@ -339,7 +342,7 @@ body{
     left: 494px;
 }
 .time:nth-child(7):hover~.move{
-    left: 609px;
+    left: 608px;
 }
 .money{
     color: gray;
@@ -487,33 +490,34 @@ body{
     position: relative;
 }
 .itemBox ul{
+    list-style: none;
     position: absolute;
-    top: -20px;
-    left: -40px;
+    display: block;
+    top: -23px;
+    left: 5px;
+    padding-left: 0;
+    width: 491px;
+    border-bottom: 1px solid #dedfe1;
 }
-.itemBox ul li:hover{
-    background-color: white;
-    border-top: 1px solid #dedfe1;
-    border-left: 1px solid #dedfe1;
-    border-right: 1px solid #dedfe1;
-    border-bottom: 1px solid #ffffff;
-    cursor: pointer;
-}
-.itemBox li{
+.itemBox ul li{
     text-align: center;
     list-style: none;
     float: left;
+    display:inline-block;
     background-color: #f4f5f7;
-    margin-left: 5px;
+    margin-right: 5px;
     padding-top: 5px;
     width: 85px;
     height: 23px;
     border-radius: 5px 5px 0 0;
+    border: 1px solid #f4f5f7;
+    border-bottom: none;
 }
 .itemBox div{
     width: 430px;
     height: 200px;
     border: 1px solid #dedfe1;
+    border-top: none;
     position: absolute;
     top: 20px;
     padding: 30px 30px 20px 30px;
@@ -521,11 +525,13 @@ body{
 .itemBox1{
     border-collapse: collapse;/*合并单元格*/
 }
-.on{
+#box ul li.on{
+    background-color: white;
+    border: 1px solid #dedfe1;
+    border-bottom: 1px solid #43b29f;
+    cursor: pointer;
 }
-.on:hover{
-}
-.hide{
+.hide table{
     display: none;
 }
 .itemBox1 th,.itemBox1 td{
@@ -681,6 +687,7 @@ body{
  }
 .dateBox-2 td:hover{
     background-color: #f4f5f7;
+    border: 1px solid #e1cd46;
 }
 .weekend,.holiday{
     color: #cf4636;
