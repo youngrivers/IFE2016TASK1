@@ -3,7 +3,7 @@ body{
     margin: 0 auto;
     padding: 0;
     overflow-x: hidden;
-    font: 12px/1.5 Microsoft YaHei,arial,sans-serif,'ËÎÌå';
+    font: 12px/1.5 Microsoft YaHei,arial,sans-serif,'ï¿½ï¿½ï¿½ï¿½';
 }
 .div{
     display:inline;
@@ -35,11 +35,11 @@ body{
     border-radius: 2em;
     padding-left: 40px;
     border: 0;
-    outline: none;/*È¥³ýÀ¶É«±ß¿ò*/
+    outline: none;/*È¥ï¿½ï¿½ï¿½ï¿½É«ï¿½ß¿ï¿½*/
     height: 26px;
     width: 150px;
     transition: width 1s;
-    margin-right: 20px;/*ÏòÓÒÒÆ¶¯*/
+    margin-right: 20px;/*ï¿½ï¿½ï¿½ï¿½ï¿½Æ¶ï¿½*/
 }
 .header-2-1 input:focus{
     width: 300px;
@@ -59,7 +59,7 @@ body{
 .header-2-2 a{
     display: inline-block;
     color: white;
-    text-decoration:none;/*È¥ÏÂ»®Ïß */
+    text-decoration:none;/*È¥ï¿½Â»ï¿½ï¿½ï¿½ */
 }
 .header-2-2 span{
     width: 16px;
@@ -88,7 +88,7 @@ body{
     display: inline-block;
     color: white;
     font-size: 150%;
-    text-decoration:none;/*È¥ÏÂ»®Ïß */
+    text-decoration:none;/*È¥ï¿½Â»ï¿½ï¿½ï¿½ */
 }
 .details{
     width: 57px;
@@ -523,7 +523,7 @@ body{
     padding: 30px 30px 20px 30px;
 }
 .itemBox1{
-    border-collapse: collapse;/*ºÏ²¢µ¥Ôª¸ñ*/
+    border-collapse: collapse;/*ï¿½Ï²ï¿½ï¿½ï¿½Ôªï¿½ï¿½*/
 }
 #box ul li.on{
     background-color: white;
@@ -651,7 +651,7 @@ body{
     top: 50px;
 }
 .date select{
-    outline: none;/*È¥³ýÀ¶É«±ß¿ò*/
+    outline: none;/*È¥ï¿½ï¿½ï¿½ï¿½É«ï¿½ß¿ï¿½*/
     height: 22px;
 }
 .month{
@@ -671,7 +671,7 @@ body{
     left: 22px;
     /*border-collapse: collapse;*/
     border-collapse: separate;
-    border-spacing:0 2px;/*µ¥Ôª¸ñÖ®¼äµÄ¼äÏ¶*/
+    border-spacing:0 2px;/*ï¿½ï¿½Ôªï¿½ï¿½Ö®ï¿½ï¿½Ä¼ï¿½Ï¶*/
     text-align: center;
 }
 .dateBox-1 td{
@@ -684,6 +684,7 @@ body{
      width: 40px;
      height: 40px;
      cursor: pointer;
+     border: 1px solid #fff;
  }
 .dateBox-2 td:hover{
     background-color: #f4f5f7;
@@ -720,7 +721,7 @@ body{
     left: 40px;
     width: 450px;
     height: 275px;
-    border-collapse: collapse; /*È¥µôµ¥Ôª¸ñÖ®¼äµÄ¼äÏ¶*/
+    border-collapse: collapse; /*È¥ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½Ö®ï¿½ï¿½Ä¼ï¿½Ï¶*/
     text-align: center;
 }
 .carBox tr{
