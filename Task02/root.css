@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #DEDEDE;
+    font-family: Microsoft YaHei;
+    position: relative;
+}
+.top{
+    width:99.9%;
+    height: 60px;
+    background-color: #333;
+    position: relative;
+}
+.logo{
+    height:50px;
+    position: absolute;
+    left: 30px;
+    top: 5px;
+}
+.link{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+.link li{
+    float: left;
+    margin-left: 22px;
+}
+.link a{
+    font-size: 80%;
+    text-decoration: none;
+    color: white;
+    padding-left: 4px;
+}
+.main1{
+    background-color: white;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+.details{
+    color: gray;
+    font-size: 70%;
+}
+.main2{
+    position: relative;
+    background-color: white;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+}
+.x li{
+    list-style: none;
+}
+.img{
+    background-color: white;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+.goodimg{
+    border: 1px solid #DEDEDE;
+    margin-left: 40px;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+}
+.goodimg p{
+    font-size: 70%;
+}
+.goodimg img{
+    width:100px;
+    height:75px;
+}
+.main1 table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.main1 th{
+    background-color: #333333;
+    color: white;
+}
+.td4{
+    background-color: gray;
+    color: black;
+}
+.main2 h2{
+    border-left: 3px solid #DEDEDE;
+    font-size: 90%;
+}
+.ID{
+    margin-left: 450px;
+}
+.ID input{
+}
+button{
+    width: 100%;
+    height:40px;
+    background-color:#3355D0;
+    border-radius:1em;
+    color: white;
+}
+.footer{
+    position: relative;
+    width:99.9%;
+    height: 80px;
+    background-color:black;
+    color: white;
+    font-size: 70%;
+}
+.footer p{
+    position: absolute;
+    top: 10px;
+    left: 46%;
+}
+form p{
+    font-size: 70%;
+    color: gray;
+}
+.left{
+    position: absolute;
+    right: 65%;
+}

@@ -1,0 +1,46 @@
+body html{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius:1em;
+    /*子元素的float、clear和vertical-align属性将失效。*/
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    flex-direction: row;/* 主轴为水平方向，起点在左端 */
+}
+@media (min-width : 640px) {
+    .box{align-items: center;/* 定义交叉轴的对齐方式 */  }
+}
+
+@media (max-width : 640px) {
+    .box{flex-wrap: wrap;/* 换行 */
+    align-items:flex-start ;}
+    .box-4{order: -1}/*order属性定义项目的排列顺序。数值越小，排列越靠前，默认为0。*/
+}
+.box-1{
+    width: 150px;
+    height: 120px;
+    border: 1px solid #f00;
+    margin: 20px;
+}
+.box-2{
+    width: 150px;
+    height: 100px;
+    border: 1px solid #f00;
+    margin: 20px;
+}
+.box-3{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #f00;
+    margin: 20px;
+}
+.box-4{
+    width: 150px;
+    height: 200px;
+    border: 1px solid blue;
+    margin: 20px;
+}

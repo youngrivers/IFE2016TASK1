@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+table{
+    margin: 20px 40px;
+    font-family: Microsoft YaHei;
+    border: 1px solid #fff;
+    box-shadow: 10px 10px 10px #888;
+}
+th{
+    text-align: left;
+    background: black;
+    color: #fff;
+}
+.content{
+    background-color: gray;
+}
+.contentC{
+    color: red;
+    text-shadow: 2px 2px 5px #FF0000;
+ }
+.move input{
+    margin: 20px 40px;
+    width: 200px;
+    cursor: pointer;
+    transition: width 2s;
+}
+.move input:hover{
+    width: 400px;
+}
+.change input{
+    margin: 20px 40px;
+    width: 200px;
+    cursor: pointer;
+}
+.change input:focus{
+    animation:width 2s backwards;
+}
+@keyframes width {
+    from{width: 200px}
+    to{width: 400px}
+}
+.banner{
+    width: 500px;
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: left 2s;
+}
+/*.box{*/
+    /*position:relative;*/
+    /*width: 500px;*/
+    /*height: 250px;*/
+/*}*/
+.img1{
+    background: url("images/lionSol1.jpg");
+}
+.img2{
+    background: url("images/lionSol2.jpg");
+}
+.img3{
+    background: url("images/lionSol3.jpg");
+}
+.bannerImg{
+    position: relative;
+    left: 0;
+    width: 300%;
+    transition: left 1s;
+    animation: move 10s;
+}
+@keyframes move {
+    from{
+        left: 0;
+    }
+    to{
+        left: -200%;
+    }
+}
+.bannerImg li{
+    width: 500px;
+    height: 250px;
+    display: inline-block;
+    float: left;
+}
+#img1:target~.bannerImg{
+    left: 0;
+}
+#img2:target~.bannerImg{
+    left:-100%;
+}
+#img3:target~.bannerImg{
+    left:-200%;
+}
+.number{
+    position: absolute;
+    top: 225px;
+    right: 0;
+}
+.number a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    text-underline: none;
+    list-style-type: none;
+    opacity: 0.6;
+}
