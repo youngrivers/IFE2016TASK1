@@ -1,0 +1,49 @@
+body{
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    font-family: Microsoft YaHei;
+}
+fieldset{
+    border-radius: 5px;
+}
+button{
+    color: #3e89fa;
+    background-color:white;
+    border:1px solid #3e89fa;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    color: white;
+    background-color: #3e89fa;
+}
+.box1{
+    width: 830px;
+    height: 195px;
+    border: 2px solid #00ffff;
+    margin: 50px auto;
+}
+.box2{
+    width: 355px;
+    height: 140px;
+    border: 2px solid #ffd700;
+    float: left;
+    margin: 25px 26px;
+}
+.box3{
+    width: 140px;
+    height: 90px;
+    border: 2px solid #8a2be2;
+    float: left;
+    margin: 20px 15px;
+}
+.box4{
+    width: 32px;
+    height: 32px;
+    border: 2px solid #b04343;
+    float: left;
+    margin: 25px 15px;
+}

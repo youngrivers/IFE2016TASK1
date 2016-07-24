@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单（三）联动</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<form action="">
+    <label for="inS"><input name="Method" type="radio" id="inS" value="" class="checkOn"/>在校生</label>
+    <label for="noS"><input name="Method" type="radio" id="noS" value=""/>非在校生</label>
+</form>
+<label for="inS" id="school">
+    <span>学校</span>
+    <select id="city">
+        <option>北京</option>
+        <option>上海</option>
+        <option>广州</option>
+        <option>成都</option>
+    </select>
+    <select class="on" id="university">
+        <option>北京大学</option>
+        <option>清华大学</option>
+        <option>中国人民大学</option>
+        <option>北京师范大学</option>
+    </select>
+    <select class="close">
+        <option>复旦大学</option>
+        <option>上海交通大学</option>
+        <option>上海大学</option>
+        <option>上海财经大学</option>
+    </select>
+    <select class="close">
+        <option>中山大学</option>
+        <option>暨南大学</option>
+        <option>华南理工大学</option>
+        <option>广州工业大学</option>
+    </select>
+    <select class="close">
+        <option>四川大学</option>
+        <option>电子科技大学</option>
+        <option>西南交通大学</option>
+        <option>西南科技大学</option>
+    </select>
+</label>
+<label for="noS" id="company">
+    <span>就业单位</span>
+    <input type="text"/>
+</label>
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>

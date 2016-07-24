@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.c1{
+    position: relative;
+    background-color: #007d60;
+    height: 50px;
+}
+.c1 a{
+    position: relative;
+    font-size: 24px;
+    font-family:"Microsoft YaHei";
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    width: 72px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.c1 a:hover{
+    background-color: #0aaf88;
+}
+.c2-c{
+    position: relative;
+    margin-left: 100px;
+    font-family: "Microsoft YaHei";
+}
+.c3{
+    display: none;
+    width: 300px;
+    height: 200px;
+    border: 2px solid #9999ff;
+    position: fixed;
+    top: 222px;
+    bottom: 222px;
+    left: 40%;
+    background-color: #fff;
+}
+.c3 h1{
+    display: block;
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+    line-height: 40px;
+    height: 40px;
+    border-bottom:1px solid #ccc;
+    text-indent: 20px;
+    margin: 0;
+}
+.c3 h1 input{
+    position: absolute;
+    top: 6px;
+    right: 13px;
+    width: 28px;
+    height: 28px;
+    border: 2px outset #ddd;
+    cursor: pointer;
+}
+.c3-content{
+    padding: 0 45px;
+}
+.c3-content input{
+    width: 210px;
+    height: 30px;
+    margin: 5px 0;
+}

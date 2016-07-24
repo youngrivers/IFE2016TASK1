@@ -1,0 +1,16 @@
+
+button{
+    color: #3e89fa;
+    background-color:white;
+    border:1px solid #3e89fa;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    color: white;
+    background-color: #3e89fa;
+}
+#oLabel small{
+    color: #ccc;
+    margin-left: 40px;
+}

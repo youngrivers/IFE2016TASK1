@@ -1,0 +1,38 @@
+body{
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-family: Microsoft YaHei;
+}
+input{
+    outline: none;
+}
+button{
+    color: #3e89fa;
+    background-color:white;
+    border:1px solid #3e89fa;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    color: white;
+    background-color: #3e89fa;
+}
+#num li{
+    list-style: none;
+    display: block;
+    float: left;
+    text-align: center;
+    margin: 10px;
+    padding-top: 15px;
+    width: 50px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+#num li:hover{
+    border:1px solid #3e89fa;
+    color: #3e89fa;
+}

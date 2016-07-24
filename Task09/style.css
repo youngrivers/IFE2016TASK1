@@ -693,7 +693,7 @@ body{
 .weekend,.holiday{
     color: #cf4636;
 }
-.myDay{
+#myDay{
     border: 1px solid #e1cd46;
 }
 .car{
