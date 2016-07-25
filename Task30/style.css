@@ -1,0 +1,46 @@
+.wrap{
+    width: 500px;
+    position: absolute;
+    line-height: 30px;
+    font-family: "Microsoft YaHei";
+}
+.wrap input{
+    position: absolute;
+    right: 10px;
+    outline: none;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    box-shadow: 0 0 2px #ccc;
+}
+label{
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+}
+.text{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+}
+button{
+    position: absolute;
+    right: 10px;
+    width: 100px;
+    height: 40px;
+    color: #3e89fa;
+    background-color:white;
+    border:1px solid #3e89fa;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+}
+button:hover{
+    color: white;
+    background-color: #3e89fa;
+}
+.wrap small{
+    color: #ccc;
+    margin-left: 90px;
+}
