@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/Task40/index.html" line="8" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3149b618-027e-4c0f-98b2-0631a5397007" name="默认的" comment="" />
+=======
+  <component name="ChangeListManager">
+    <list default="true" id="a6e1561b-6985-4582-aba5-68d6711d0059" name="默认的" comment="" />
+>>>>>>> gh-pages
     <ignored path="IFE2016TASK1.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +29,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Task40/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.40254238">
               <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+=======
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Task09/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="525" column="44" selection-start-line="525" selection-start-column="44" selection-end-line="525" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Task09/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.114">
+              <caret line="660" column="15" selection-start-line="660" selection-start-column="15" selection-end-line="660" selection-end-column="15" />
+>>>>>>> gh-pages
               <folding />
             </state>
           </provider>
@@ -40,8 +73,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Html5" />
+<<<<<<< HEAD
         <option value="CSS File" />
         <option value="JavaScript File" />
+=======
+>>>>>>> gh-pages
       </list>
     </option>
   </component>
@@ -51,6 +87,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Task09/index.html" />
         <option value="$PROJECT_DIR$/Task09/style.css" />
         <option value="$PROJECT_DIR$/test.md" />
@@ -59,6 +96,10 @@
         <option value="$PROJECT_DIR$/Task40/css/style.css" />
         <option value="$PROJECT_DIR$/Task40/js/script.js" />
         <option value="$PROJECT_DIR$/Task40/index.html" />
+=======
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Task09/style.css" />
+>>>>>>> gh-pages
       </list>
     </option>
   </component>
@@ -87,7 +128,11 @@
     <OptionsSetting value="true" id="更新" />
     <OptionsSetting value="true" id="状态" />
     <OptionsSetting value="true" id="编辑" />
+<<<<<<< HEAD
     <ConfirmationsSetting value="2" id="添加" />
+=======
+    <ConfirmationsSetting value="0" id="添加" />
+>>>>>>> gh-pages
     <ConfirmationsSetting value="0" id="移除" />
   </component>
   <component name="ProjectView">
@@ -103,8 +148,11 @@
       <sortByType />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
+=======
+>>>>>>> gh-pages
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -125,14 +173,24 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+=======
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+>>>>>>> gh-pages
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+<<<<<<< HEAD
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -141,6 +199,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Users\youngrivers\Documents\GitHub\IFE2016TASK1\Task01" />
     </key>
+=======
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+>>>>>>> gh-pages
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -188,21 +249,37 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="3149b618-027e-4c0f-98b2-0631a5397007" name="默认的" comment="" />
       <created>1460037383544</created>
       <option name="number" value="Default" />
       <updated>1460037383544</updated>
+=======
+      <changelist id="a6e1561b-6985-4582-aba5-68d6711d0059" name="默认的" comment="" />
+      <created>1469287965497</created>
+      <option name="number" value="Default" />
+      <updated>1469287965497</updated>
+>>>>>>> gh-pages
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="217" y="0" width="1009" height="641" extended-state="0" />
+<<<<<<< HEAD
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2487412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289225" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+=======
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24974824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+>>>>>>> gh-pages
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -218,6 +295,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+<<<<<<< HEAD
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -226,6 +304,8 @@
       <collection />
     </option>
   </component>
+=======
+>>>>>>> gh-pages
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -234,14 +314,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Task40/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+>>>>>>> gh-pages
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -295,12 +383,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="254" selection-start-line="5" selection-start-column="254" selection-end-line="5" selection-end-column="254" />
+=======
+    <entry file="file://$PROJECT_DIR$/Task09/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="525" column="44" selection-start-line="525" selection-start-column="44" selection-end-line="525" selection-end-column="44" />
+          <folding />
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Task09/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
           <caret line="686" column="5" selection-start-line="686" selection-start-column="5" selection-end-line="686" selection-end-column="5" />
         </state>
       </provider>
@@ -330,12 +426,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+          <folding />
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Task09/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
           <caret line="534" column="60" selection-start-line="534" selection-start-column="60" selection-end-line="534" selection-end-column="60" />
         </state>
       </provider>
@@ -344,11 +453,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+=======
+          <caret line="525" column="44" selection-start-line="525" selection-start-column="44" selection-end-line="525" selection-end-column="44" />
+          <folding />
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Task09/style.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="690" column="30" selection-start-line="690" selection-start-column="30" selection-end-line="690" selection-end-column="30" />
         </state>
@@ -407,6 +521,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40254238">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+=======
+        <state vertical-scroll-proportion="0.114">
+          <caret line="660" column="15" selection-start-line="660" selection-start-column="15" selection-end-line="660" selection-end-column="15" />
+>>>>>>> gh-pages
           <folding />
         </state>
       </provider>
