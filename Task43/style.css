@@ -1,0 +1,7 @@
+#frame{
+     width: 600px;
+    height: 600px;
+    border: 1px solid #cccccc;
+    box-shadow:2px 2px 2px 2px #6e8096;
+    margin:0 auto;
+}
