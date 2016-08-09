@@ -3,13 +3,18 @@
  */
 (function () {
     var choose=document.getElementById("choose");
-    var frame=document.getElementById("frame");
-    var c=choose.value;
-    //frame.style.background-color="#96254";
-    console.log(c);
-    /*switch (1){
-        case (c==1)
-            break;
-
-    }*/
+    var frame=document.getElementsByClassName("frame");
+    frame[0].className="frame"+" show";
+    //相框智能显示
+    choose.onclick=function () {
+        var c=choose.value;
+        console.log(c);
+        for(var i=0;i<frame.length;i++){
+            frame[i].className="frame";//重置
+            if(i==c-1){
+                frame[i].className="frame"+" show";
+                console.log(frame[i].className);
+            }
+        }
+    };
 })();

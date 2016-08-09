@@ -1,0 +1,22 @@
+img{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 24%;
+    cursor: pointer;
+}
+#win{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+}
+#box img{
+    width: 800px;
+    height: 600px;
+    margin:0 auto;
+}

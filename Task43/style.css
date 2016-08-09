@@ -1,7 +1,137 @@
-#frame{
-     width: 600px;
-    height: 600px;
+img{
+    margin: 0;
+    padding: 0;
+}
+.frame{
+     width: 1200px;
+    height: 800px;
     border: 1px solid #cccccc;
     box-shadow:2px 2px 2px 2px #6e8096;
     margin:0 auto;
+    padding: 0;
+    overflow: hidden;
+    display: none;
+}
+.show{
+    display: block;
+}
+#frame1 img{
+    width: 100%;
+    height: 100%;
+}
+/*2张图片*/
+.frame img:nth-last-child(2){
+    width: 1200px;
+    height: 800px;
+}
+.frame img:nth-last-child(2):first-child{
+    position: absolute;
+    -webkit-clip-path: polygon(0 0, 66% 0, 33% 100%, 0 100%);
+    clip-path: polygon(0 0, 66% 0, 33% 100%, 0 100%);
+}
+.frame img:nth-last-child(2):last-child{
+    -webkit-clip-path: polygon(66% 0, 100% 0, 100% 100%, 33% 100%);
+    clip-path: polygon(66% 0, 100% 0, 100% 100%, 33% 100%);
+}
+/*3张图片*/
+#frame3 img{
+    display: inline;
+    float: left;
+}
+#frame3 img:nth-of-type(1){
+    width: 66%;
+    height: 100%;
+}
+#frame3 img:nth-of-type(2){
+    width: 408px;
+    height: 400px;
+}
+#frame3 img:nth-of-type(3){
+    width: 408px;
+    height: 400px;
+}
+/*四张图片*/
+#frame4 img{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+/*五张图片*/
+#frame5{
+    position: relative;
+}
+#frame5 img:nth-of-type(1){
+    width: 66%;
+    height: 66%;
+}
+#frame5 img:nth-of-type(2){
+    width: 33%;
+    height: 34%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#frame5 img:nth-of-type(3){
+    width: 33%;
+    height: 34%;
+    position: absolute;
+    left: 33%;
+    bottom: 0;
+}
+#frame5 img:nth-of-type(4){
+    width: 34%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#frame5 img:nth-of-type(5){
+    width: 34%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+/*六张图片*/
+#frame6{
+    position: relative;
+}
+#frame6 img:nth-of-type(1){
+    width: 66.66%;
+    height: 66.66%;
+}
+#frame6 img:nth-of-type(2){
+    width: 33.33%;
+    height: 33.33%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#frame6 img:nth-of-type(3){
+    width: 33.33%;
+    height: 33.33%;
+    position: absolute;
+    left: 33.33%;
+    bottom: 0;
+}
+#frame6 img:nth-of-type(4){
+    width: 33.33%;
+    height: 33.33%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#frame6 img:nth-of-type(5){
+    width: 33.33%;
+    height: 33.33%;
+    position: absolute;
+    top: 33.33%;
+    right: 0;
+}
+#frame6 img:nth-of-type(6){
+    width: 33.33%;
+    height: 33.33%;
+    position: absolute;
+    top: 66.66%;
+    right: 0;
 }
