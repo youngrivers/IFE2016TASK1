@@ -4,6 +4,10 @@ body{
     width: 1280px;
     font-family:"Microsoft YaHei";
 }
+input{
+    padding: 0;
+    margin: 0;
+}
 .top{
     height: 60px;
     position: relative;
@@ -353,6 +357,10 @@ option:hover:first-line{
 }
 .contactUs img{
     margin: 0 10px;
+}
+.contactUs input{
+    border: 1px solid #333;
+    float: left;
 }
 .footerRoot{
     width: 100%;
