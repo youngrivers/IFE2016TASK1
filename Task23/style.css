@@ -1,0 +1,21 @@
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border: 1px solid;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+br{
+    clear: left;
+}
+legend{
+    font-family: "黑体";
+    font-size: 20px;
+}
+.tn1,fieldset{
+    float: left;
+}
